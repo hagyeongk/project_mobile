@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+</head>
+<script>
+   $(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 600,
+    auto: true,
+    pager: true
+  });
+});
+</script>
+
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+</style>
+
+<body>
+    
+    <div class="popup">
+        <input type="checkbox" name="pop" id="pop" checked>
+        <div class="pop_sheet">
+            <a href="#!"><img src="./css/images/sale2.jpg" alt=""></a>
+            <label for="pop"><i class="fa-solid fa-xmark"></i> 닫기</label>
+        </div>
+    </div>
+
+
+    <header class="header" id="header">
+        <div class="menu_box">
+            <input type="checkbox" name="menu" id="menu">
+                    <label for="menu" class="open_menu"><i class="fa-solid fa-bars"></i></label>
+                    <label for="menu" class="close_menu"><i class="fa-solid fa-xmark"></i></label>
+                    <div class="menu_sheet">
+                        <div>
+                            <input type="checkbox" name="shop" id="shop" checked>
+                            <label for="shop" class="shop">SHOP</label>
+                            <div class="shop_sheet">
+                                <ul>
+                                    <li><a href="#!">PHONE CASE</a></li>
+                                    <li><a href="#!">AIRPODS/ BUDS</a></li>
+                                    <li><a href="#!">SMART TOK</a></li>
+                                    <li><a href="#!">LIFE</a></li>
+                                </ul>
+                            </div>
+
+                            <input type="checkbox" name="more" id="more">
+                            <label for="more" class="more">MORE</label>
+                            <div class="more_sheet">
+                                <ul>
+                                    <li><a href="#!">NOTICE</a></li>
+                                    <li><a href="#!">REVIEW</a></li>
+                                    <li><a href="#!">Q&A</a></li>
+                                </ul>
+                            </div>
+
+                            <a href="#!" class="login">LOGIN</a>
+                        </div>
+                    </div>
+        </div>
+        <a href="./index.html" class="logo">YUPHORIA</a>
+        <nav class="gnb">
+            <ul>
+                <li><a href="#!"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#!"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li>
+                    <input type="checkbox" name="search" id="search">
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+
+                    <div class="search_sheet">
+                        <input type="search" name="search_box" id="search_box" placeholder="입력하세요.">
+                        <button class="search_btn">검색</button>
+                    </div>
+                </li>
+            </ul>
+        </nav> <!--gnb-->
+    </header>
+
+    <div class="wrap">
+      
+            
+        <div class="bxslider">
+            <div><img src="./images/visual_mo01.jpg" alt="메인01"></div>
+            <div><img src="./images/visual_mo02.jpg" alt="메인01"></div>
+            <div><img src="./images/visual_mo03.jpg" alt="메인01"></div>
+            <div><img src="./images/visual_mo04.jpg" alt="메인01"></div>
+        </div>
+      
+
+        <h3 class="title">NEW ITEMS</h3>
+
+        <div class="new">
+        <div>
+            <a href="#!"><img src="./images/new02.jpg" alt="신제품01"></a>
+            <p>Angela black case<br/>23,000<span class="ko_txt">원</span></p>
+            </div>
+        <div>
+            <a href="#!"><img src="./images/new03.jpg" alt="신제품02"></a>
+            <p>Ivy garden case<br/>21,000<span class="ko_txt">원</span></p>
+        </div>
+        <div>
+            <a href="#!"><img src="./images/new04.jpg" alt="신제품02"></a>
+            <p>Paradise case<br/> 22,000<span class="ko_txt">원</span></p>
+        </div>
+        <div>
+            <a href="#!"><img src="./images/new05.jpg" alt="신제품02"></a>
+            <p>Midnight Lily Clear Case<br/>23,000<span class="ko_txt">원</span></p>
+            </div>
+        </div>
+        
+        <ul class="issue">
+            <li><a href="#!">ABOUT US</a></li>
+            <li><a href="#!">LOOK BOOK</a></li>
+        </ul>
+
+        <h3 class="title">WEEKLY BEST</h3>
+
+        <section class="best_box">
+            <input type="radio" name="best" id="best01" checked>
+            <input type="radio" name="best" id="best02">
+            <input type="radio" name="best" id="best03">
+            <input type="radio" name="best" id="best04">
+
+            <label for="best01" class="best1">#PHONE CASE</label>
+            <label for="best02" class="best2">#AIRPODS/ BUDS</label>
+            <label for="best03" class="best3">#SMART TOK</label>
+            <label for="best04" class="best4">#LIFE</label>
+            <a href="#!" class="more_watch">#더보기</a>
+
+            <div class="best01_sheet">
+                <a href="#!" class="best_phone1">
+                    <div></div>
+                    <p class="txt01">Spring Garden Case<br/>21,000<span class="ko_txt">원</span></p>
+                </a>
+                <a href="#!" class="best_phone2">
+                    <div></div>
+                    <p class="txt01">Blooming Garden Case<br/>21,000<span class="ko_txt">원</span></p>
+                </a>
+                <a href="#!" class="best_phone3">
+                    <div></div>
+                    <p class="txt01">Dreams Case<br/>23,000<span class="ko_txt">원</span></p>
+                </a>
+                <a href="#!" class="best_phone4">
+                    <div></div>
+                    <p class="txt01">Night Garden Case<br/>23,000<span class="ko_txt">원</span></p>
+                </a>
+            </div><!--best01_sheet-->
+
+            <div class="best02_sheet">
+                <a href="#!" class="best_air1">
+                    <div></div>
+                    <p>Angela Black Case<br />19,000<span class="ko_txt">원</span></p>
+                </a>
+
+                <a href="#!" class="best_air2">
+                    <div></div>
+                    <p>Paradise Case<br />19,000<span class="ko_txt">원</span></p>
+                </a>
+
+                <a href="#!" class="best_air3">
+                    <div></div>
+                    <p>Midnight Lily Case<br />19,000<span class="ko_txt">원</span></p>
+                </a>
+
+                <a href="#!" class="best_air4">
+                    <div></div>
+                    <p>Night Garden Case<br />19,000<span class="ko_txt">원</span></p>
+                </a>
+
+            </div><!--best02_sheet-->
+
+            <div class="best03_sheet">
+                <a href="#!" class="best_smart1">
+                    <div></div>
+                    <p>Hibiscus Tok<br />13,000<span class="ko_txt">원</span></p>
+                </a>
+
+                <a href="#!" class="best_smart2">
+                    <div></div>
+                    <p>Lotus Tok<br />13,000<span class="ko_txt">원</span></p>
+                </a>
+
+                <a href="#!" class="best_smart3">
+                    <div></div>
+                    <p>Pink Prchid Tok<br />13,000<span class="ko_txt">원</span></p>
+                </a>
+
+                <a href="#!" class="best_smart4">
+                    <div></div>
+                    <p>Angela Odd Heart Tok<br />15,000<span class="ko_txt">원</span></p>
+                </a>
+            </div><!--best03_sheet-->
+            <div class="best04_sheet">
+                <a href="#!" class="best_life1">
+                    <div></div>
+                    <p>Round Mountain<br />8,900<span class="ko_txt">원</span></p>
+                </a>
+                <a href="#!" class="best_life2">
+                    <div></div>
+                    <p>Twist<br />7,500<span class="ko_txt">원</span></p>
+                </a>
+                <a href="#!" class="best_life3">
+                    <div></div>
+                    <p>White Glass<br />8,200<span class="ko_txt">원</span></p>
+                </a>
+                <a href="#!" class="best_life4">
+                    <div></div>
+                    <p>Hot Pink Mug<br />19,300<span class="ko_txt">원</span></p>
+                </a>
+
+            </div><!--best04_sheet-->
+              
+        </section><!--best_box-->
+
+        <ul class="issue">
+            <li><a href="#!">OFFLINE STORE</a></li>
+            <li><a href="#!">MEMBERSHIP</a></li>
+        </ul>
+
+        <h3 class="title">PHONE CASE</h3>
+        <div class="phone_intro">
+            <a href="#!"><img src="./css/images/products_banner04.jpg" alt="배너1"></a>
+
+            <input type="checkbox" name="phone_int" id="phone_int" checked>
+            <div class="phone_int01">
+                
+                <div class="p_int01">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Always Case<br /> <s>20,000</s><br/>18,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>   
+                <div class="p_int02">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Cloud Case<br /><s>21,000</s><br/>19,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>  
+                <div class="p_int03">
+                    <a href="#!"></a>
+                    <div>
+                        <p>gummy Bear Case<br /><s>21,000</s><br/>19,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>  
+            </div>
+       
+            <label for="phone_int" class="phone_open">더보기</label>
+            <label for="phone_int" class="phone_close">닫기</label>
+        </div><!--phone_case-->
+
+
+        <h3 class="title">AIRPODS/ BUDS</h3>
+        <div class="air_intro">
+            <a href="#!"><img src="./css/images/products_banner03.jpg" alt="배너2"></a>
+
+            <input type="checkbox" name="air_int" id="air_int" >
+            <div class="air_int01">
+                <div class="a_int01">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Angela Black Case<br /><s>19,000</s><br/>17,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+
+                <div class="a_int02">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Paradise Case<br /><s>19,000</s><br/>17,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+
+                <div class="a_int03">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Midnight Lily Case<br /><s>19,000</s><br/>17,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+            </div>
+            <label for="air_int" class="air_open">더보기</label>
+            <label for="air_int" class="air_close">닫기</label>
+        </div><!--airpods-->
+
+
+        <h3 class="title">SMART TOK</h3>
+        <div class="smart_intro">
+            <a href="#!"><img src="./css/images/products_banner02.jpg" alt="배너3"></a>
+            <input type="checkbox" name="smart_int" id="smart_int" >
+            <div class="smart_int01">
+                <div class="s_int01">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Hibiscus Tok<br /><s>13,000</s><br/>11,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+
+                <div class="s_int02">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Lotus Tok<br /><s>13,000</s><br/>11,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+
+                <div class="s_int03">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Pink Orchid Tok<br /><s>13,000</s><br/>11,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+            </div>
+            <label for="smart_int" class="smart_open">더보기</label>
+            <label for="smart_int" class="smart_close">닫기</label>
+        </div><!--smarttok-->
+
+        <h3 class="title">LIFE</h3>
+        <div class="life_intro">
+            <a href="#!"><img src="./css/images/products_banner01.jpg" alt="배너4"></a>
+            <input type="checkbox" name="life_int" id="life_int" >
+            <div class="life_int01">
+                <div class="l_int01">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Angela Black Mini Pouch<br /><s>16,000</s><br/>14,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+
+                <div class="l_int02">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Moonlight Summer Night<br /><s>44,000</s><br/>42,000<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+
+                <div class="l_int03">
+                    <a href="#!"></a>
+                    <div>
+                        <p>Cutlery<br /><s>7,400</s><br/>7,200<span class="ko_txt">원</span></p>
+                        <button class="buy">구매</button>
+                        <button class="detail">자세히</button>
+                    </div>
+                </div>
+            </div>
+            
+            <label for="life_int" class="life_open">더보기</label>
+            <label for="life_int" class="life_close">닫기</label>
+        </div><!--life-->
+
+        <h3 class="title" style="margin-top: 100px;">SNS</h3>
+
+        <div class="sns">
+            <div>
+                <a href="#!"></a>
+                <p>Twitter</p>
+            </div>
+            <div>
+                <a href="#!"></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="#!"></a>
+                <p>Facebook</p>
+            </div>
+            <div>
+                <a href="#!"></a>
+                <p>Youtube</p>
+            </div>
+        </div>
+           
+
+
+    </div><!--wrap-->
+    
+    <footer class="footer" id="footer">
+        <ul>
+            <li><a href="./index.html"><b>YUPHORIA</b></a></li>
+            <li><a href="#!"><span class="ko_txt">카카오톡 빠른 문의</span></a></li>
+            <li>
+                <p>Mon-Fri 13:30 - 18:00<br/>Weekend/Holiday off</p>
+            </li>
+            <li>ADDRESS <span class="ko_txt">서울특별시 중구 퇴계로 27길 40 B1층</span></li>
+            <li>Owner: Jiha Kim</li>
+            <li>Email: worldofyuphoria@gmail.com</li>
+        </ul>
+    </footer>
+
+    <div class="quick_btn">
+        <a href="#!"></a>
+        <a href="#header"><i class="fa-solid fa-arrow-up"></i></a>
+        <a href="#footer"><i class="fa-solid fa-arrow-down"></i></a>
+    </div>
+    
+</body>
+</html>
